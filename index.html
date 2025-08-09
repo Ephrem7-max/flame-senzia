@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>FLAMES Game</h1>
+            <p>Find out your relationship status!</p>
+        </header>
+        <main>
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="name1">First Name</label>
+                    <input type="text" id="name1" placeholder="e.g., Alex" autocomplete="off">
+                </div>
+                <div class="input-group">
+                    <label for="name2">Second Name</label>
+                    <input type="text" id="name2" placeholder="e.g., Jordan" autocomplete="off">
+                </div>
+                <button id="calculate-btn">Check FLAMES</button>
+            </div>
+
+            <div id="processing-area" class="hidden">
+                <div class="name-display">
+                    <div id="name1-display" class="name-box"></div>
+                    <div id="name2-display" class="name-box"></div>
+                </div>
+                <div class="count-display hidden">
+                    <p>Remaining Letters Count: <span id="count-value">0</span></p>
+                </div>
+                <div class="flames-container hidden">
+                    <div class="flames-box">
+                        <span>F</span>
+                        <span>L</span>
+                        <span>A</span>
+                        <span>M</span>
+                        <span>E</span>
+                        <span>S</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Result Modal -->
+    <div id="result-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="result-title"></h2>
+            <p id="result-emoji" class="emoji"></p>
+            <p id="result-meaning"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
