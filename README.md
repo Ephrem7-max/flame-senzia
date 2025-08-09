@@ -19,7 +19,7 @@ This project is a modern, web-based version of the classic FLAMES game. Users ca
 Checking whether you and the one in your mind has the connection you expect?
 
 ### The Solution (that nobody asked for)
-comparing whehther your names have anything in common - the most important string in any ones life.
+Comparing whether your names have anything in common - the most important string in any ones life.
 
 ## Technical Details
 ### Technologies/Components Used
@@ -29,28 +29,7 @@ For Software:
 - JavaScript
 
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software: 🔥FLAMESenzia🔥
-
-A modern web version of the classic FLAMES game, featuring dynamic animations and meme-based results via the Giphy API. Built with vanilla HTML, CSS, and JavaScript.
-
----
-
-## Live Demo
-
-(Link to your deployed site here)
-
----
-
-## ⚙️ Local Setup
+## Implementation
 
 1.  Clone the repo:
         git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
@@ -63,29 +42,47 @@ A modern web version of the classic FLAMES game, featuring dynamic animations an
 3.  Add your API Key:
     -   In script.js, replace 'YOUR_GIPHY_API_KEY_HERE' with your key.
 
-4.  Run:
-    -   Open index.html in your browser.
 
-> Note: Your Giphy API key will be public if you deploy this to GitHub Pages.
+# Installation
+Requires no further installation, can directly visit the url given under the Live Demo section to get to the page.
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+# Run
+Open index.html in your browser after the above given implementation steps.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+### Project Documentation
+For Software: 🔥FLAMESenzia🔥
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+A modern web version of the classic FLAMES game, featuring dynamic animations and meme-based results via the Giphy API. Built with vanilla HTML, CSS, and JavaScript.
 
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+---
+
+## Live Demo
+https://ephrem7-max.github.io/flame-senzia/
+---
+
+# Screenshots
+<img width="1366" height="768" alt="demo1" src="https://github.com/user-attachments/assets/c59b3446-26d6-4af9-a75f-fae236416ef4" />
+Main Page
+
+
+
+<img width="1366" height="768" alt="demo1" src="https://github.com/user-attachments/assets/b5597035-e7b3-46b8-ac42-8f7936a3ea0f" />
+Finding the connection using input names.
+
+
+
+<img width="1366" height="768" alt="demo3" src="https://github.com/user-attachments/assets/2ec5caaf-20e9-43bb-a134-1749227f5da7" />
+Result and GIF display.
+
+
+
+<img width="1366" height="768" alt="demo4" src="https://github.com/user-attachments/assets/7010e5ac-9506-4c59-88aa-36a7e9f3e7fa" />
+Unique GIFs based on results.
+
 
 ## Team Contributions
-- Joel : Javascipt
-- Ephrem: Html,css
+- Joel : JavaScipt
+- Ephrem: HTML, CSS
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
