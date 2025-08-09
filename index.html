@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FLAME</title>
+    <title>FLAMES</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,18 +12,18 @@
 <body>
     <div class="container">
         <header>
-            <h1>FLAMES Game</h1>
+            <h1>FLAMESenzia</h1>
             <p>Find out your relationship status!</p>
         </header>
         <main>
             <div class="input-section">
                 <div class="input-group">
-                    <label for="name1">First Name</label>
-                    <input type="text" id="name1" placeholder="e.g., Alex" autocomplete="off">
+                    <label for="name1">Your Name</label>
+                    <input type="text" id="name1" autocomplete="off">
                 </div>
                 <div class="input-group">
-                    <label for="name2">Second Name</label>
-                    <input type="text" id="name2" placeholder="e.g., Jordan" autocomplete="off">
+                    <label for="name2">Your Crush</label>
+                    <input type="text" id="name2" autocomplete="off">
                 </div>
                 <button id="calculate-btn">Check FLAMES</button>
             </div>
@@ -55,7 +55,8 @@
         <div class="modal-content">
             <span class="close-btn">&times;</span>
             <h2 id="result-title"></h2>
-            <p id="result-emoji" class="emoji"></p>
+            <!-- This div will now hold the meme image -->
+            <div id="result-meme-container" class="emoji"></div>
             <p id="result-meaning"></p>
         </div>
     </div>
