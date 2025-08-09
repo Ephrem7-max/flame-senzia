@@ -13,7 +13,7 @@
 - Member 2: Ephrem Shajan Madassery - School Of Engineering, CUSAT
 
 ### Project Description
-This project is a modern, web-based version of the classic FLAMES game. Users can enter two names to find out their relationship potential, which is revealed as Friendship, Love, Affection, Marriage, Enemy, or Sibling. The application features a clean UI, smooth animations for striking out common letters, and an interactive calculation process. To make the results more engaging, it integrates with the Giphy API to display a relevant meme for each outcome. The site is built with vanilla HTML, CSS, and JavaScript, making it a lightweight and fun client-side application.
+This project is a modern, web-based version of the classic FLAMES game. Users can enter two names to find out their relationship potential, which is revealed as Friendship, Love, Angry, Marriage, Enemy, or Sibling. The application features a clean UI, smooth animations for striking out common letters, and an interactive calculation process. To make the results more engaging, it integrates with the Giphy API to display a relevant meme for each outcome. The site is built with vanilla HTML, CSS, and JavaScript, making it a lightweight and fun client-side application.
 
 ### The Problem (that doesn't exist)
 Checking whether you and the one in your mind has the connection you expect?
