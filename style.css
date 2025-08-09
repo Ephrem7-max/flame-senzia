@@ -1,9 +1,9 @@
 :root {
     --primary-color: #be0111;
     --secondary-color: #cc6d7b;
-    --background-color: #f7f1e3;
-    --text-color: #596275;
-    --white-color: #ffffff;
+    --background-color: #ce3030;
+    --text-color: #58688b;
+    --white-color: #e9dbdb;
     --shadow-color: rgba(0, 0, 0, 0.1);
     --font-family: 'Poppins', sans-serif;
 }
@@ -76,11 +76,10 @@ header p {
     outline: none;
     border-color: var(--primary-color);
 }
-
 #calculate-btn {
     padding: 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     color: var(--white-color);
     font-size: 1.1rem;

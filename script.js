@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // --- Paste your Giphy API Key here ---
+
     const GIPHY_API_KEY = 'dlW7YFaGJ5IQyAjPe669ajYJwNpkytGV';
 
     // --- DOM Elements ---
@@ -175,12 +175,12 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     async function displayFinalResult(resultLetter) {
         const results = {
-            'F': { title: 'Friendship', meaning: 'You are destined to be great friends!', searchTerm: 'best friends' },
+            'F': { title: 'Friendship', meaning: 'You are destined to be great friends!', searchTerm: 'friend' },
             'L': { title: 'Love', meaning: 'A beautiful love story is on the horizon!', searchTerm: 'love' },
-            'A': { title: 'Affection', meaning: 'There is a sweet affection between you two.', searchTerm: 'hugs' },
-            'M': { title: 'Marriage', meaning: 'Wedding bells might be in your future!', searchTerm: 'wedding' },
-            'E': { title: 'Enemy', meaning: 'Watch out! It seems you might be rivals.', searchTerm: 'angry' },
-            'S': { title: 'Sibling', meaning: 'You share a strong, sibling-like bond.', searchTerm: 'siblings' }
+            'A': { title: 'Angry', meaning: 'Hold your grudge!', searchTerm: 'angry' },
+            'M': { title: 'Marriage', meaning: 'Wedding bells might be in your future!', searchTerm: 'marriage' },
+            'E': { title: 'Enemy', meaning: 'Watch out! It seems you might be rivals.', searchTerm: 'enemy' },
+            'S': { title: 'Sibling', meaning: 'You share a strong, sibling-like bond.', searchTerm: 'brother' }
         };
         const result = results[resultLetter];
         
